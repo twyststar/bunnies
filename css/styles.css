@@ -3,9 +3,7 @@ img {
   height: auto;
   border: 3px solid pink;
 }
-/*.hide {
-  display: none;
-}*/
+
  body {
    background-image: url("../img/pattern2.jpg");
  }
@@ -24,4 +22,5 @@ img {
 }
 .info {
   clear: both;
+  display: none;
 }

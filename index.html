@@ -13,38 +13,49 @@
       <div class="header">
         <h1>All About Bunnies</h1>
         <p>
-          Happy to see you love bunnies too! BUT how much do you know about bunnies? Click an image below to learn more!
+          Happy to see you love bunnies too! BUT how much do you know about bunnies? Pick an image below to learn more!
         </p>
       </div>
+
 <!--clickables-->
       <div class="row">
         <div class="col-md-4 well">
-          <img id="cute" class="clickable" src="img/tiny-bunny.jpg" alt="Tiny bunny">
+          <img class="clickable" src="img/tiny-bunny.jpg" alt="Tiny bunny">
           <h3>Parsiticus Cutie</h3>
         </div>
         <div class="col-md-4 well">
-          <img id="vampire" class="clickable" src="img/bunnicula.jpg" alt="Vampire bunny">
+          <img class="clickable" src="img/bunnicula.jpg" alt="Vampire bunny">
           <h3>Bunnicula</h3>
         </div>
         <div class="col-md-4 well">
-          <img id="fluffy" class="clickable" src="img/hairy-bunny.jpg" alt="hairy bunny">
+          <img class="clickable" src="img/hairy-bunny.jpg" alt="hairy bunny">
           <h3>Dustbunnius Fluff</h3>
         </div>
       </div>
+            <div class="well">
+              <form id="bunnyForm" class="" action="index.html" method="post">
+                <select class="form-control" id="bunny">
+                  <option>Cute</option>
+                  <option>Toothy</option>
+                  <option>Fluffy</option>
+                </select>
+                <button type="submit" name="button">Submit</button>
+              </form>
+            </div>
 <!--info-->
-      <div class="info well cute">
+      <div class="info well" id="cuteDiv">
         <img src="img/handbunny.jpg" alt="tiny bunny in hand" />
         <p>
           This tiny bunny is TOO tiny! It actually lives inside you! And everyone you know!
         </p>
       </div>
-      <div class="info well vampire">
+      <div class="info well" id="toothyDiv">
         <img src="img/teeth-bunny.jpg" alt="Toothy bunny" />
         <p>
           Vampire bunny. Known for preferring carrot-tops. This vicious animal will drain a herd of red-heads in seconds flat.
         </p>
       </div>
-      <div class="info well fluffy">
+      <div class="info well" id="fluffyDiv">
         <img src="img/fluffy.jpg" alt="Very fluffy bunny" />
         <p>
           This is the wild, fully grown cousin of the "dust-bunnies" under your bed. Have been known to tire of the wilderness and return to the beds where they are born.
