@@ -2,15 +2,13 @@ img {
   width: 100%;
   height: auto;
   border: 3px solid pink;
-
 }
-.hide {
+/*.hide {
   display: none;
-}
+}*/
  body {
    background-image: url("../img/pattern2.jpg");
  }
-
 .header {
   margin-top: 2%;
   background-color: #fbff8c;
@@ -19,4 +17,11 @@ img {
 }
 .row {
   margin-top: 4%;
+}
+.info img {
+  width: 50%;
+  height: auto;
+}
+.info {
+  clear: both;
 }
