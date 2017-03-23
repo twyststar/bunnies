@@ -1,0 +1,22 @@
+img {
+  width: 100%;
+  height: auto;
+  border: 3px solid pink;
+
+}
+.hide {
+  display: none;
+}
+ body {
+   background-image: url("../img/pattern2.jpg");
+ }
+
+.header {
+  margin-top: 2%;
+  background-color: #fbff8c;
+  border: 1px solid grey;
+  border-radius: 2%;
+}
+.row {
+  margin-top: 4%;
+}
